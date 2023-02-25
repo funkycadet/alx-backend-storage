@@ -1,2 +1,2 @@
 // Script that lists all documents with provided parameters in a collection
-db.school.find({name: Holberton school})
+db.school.find({"name": "Holberton school"})
