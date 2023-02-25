@@ -1,2 +1,2 @@
 // Script to delete all documents based on parsed argument in a collection
-db.school.delete({mane: "Holberton school"})
+db.school.deleteMany({name: "Holberton school"})
